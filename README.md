@@ -4,23 +4,18 @@ This project looks at whether blood pressure can be estimated from ECG and arter
 
 ## What the notebook does
 
-Loads a multi-channel ECG/arterial dataset.
-
-Cleans and preprocesses the data (scaling, filtering, trimming sections).
-
-Plots the signals so it’s easier to see what’s happening.
-
-Splits the dataset into training and testing.
-
-Trains simple machine learning models to predict blood pressure.
-
-Evaluates performance with error metrics (mainly Mean Squared Error).
+1. Loads a multi-channel ECG/arterial dataset.
+2. Cleans and preprocesses the data (scaling, filtering, trimming sections).
+3. Plots the signals so it’s easier to see what’s happening.
+4. Splits the dataset into training and testing.
+5. Trains simple machine learning models to predict blood pressure.
+6. Evaluates performance with error metrics (mainly Mean Squared Error).
 
 The focus is on building a complete workflow, rather than squeezing out maximum model accuracy.
 
 ## Files in this repo
 
-model.ipynb – the main notebook with all steps (data prep, visualisation, training, evaluation).
+model.ipynb – the main notebook with all steps (data preparation, visualisation, training, evaluation).
 
 X000.txt – sample raw data file (ECG and arterial signals). This isn’t included here due to size constraints but you’ll need a similar dataset to run the notebook.
 
@@ -49,10 +44,8 @@ jupyter notebook model.ipynb
 
 The models were able to pick up relationships between the ECG/arterial inputs and blood pressure, though accuracy still leaves room for improvement. It’s a good starting point and shows that the approach is viable for non-invasive estimation.
 
-Next steps
+## Next steps
 
-Try different model types (e.g. CNNs or LSTMs for time-series).
-
-Do more feature engineering, especially frequency-domain features.
-
-Improve hyperparameter tuning.
+1. Try different model types (e.g. CNNs or LSTMs for time-series).
+2. Do more feature engineering, especially frequency-domain features.
+3. Improve hyperparameter tuning.
