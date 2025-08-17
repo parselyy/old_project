@@ -26,18 +26,17 @@ X000.txt – sample raw data file (ECG and arterial signals). This isn’t inclu
 
 ## How to run it
 
-Clone this repo:
+1. Clone this repo:
 
+'''bash
 git clone https://github.com/yourusername/blood-pressure-ml.git
 cd blood-pressure-ml
 
-
-Install the required Python libraries:
+2. Install the required Python libraries:
 
 pip install numpy pandas matplotlib scipy scikit-learn
 
-
-Open the notebook in Jupyter:
+3. Open the notebook in Jupyter:
 
 jupyter notebook model.ipynb
 
