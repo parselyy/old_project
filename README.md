@@ -22,28 +22,28 @@ The focus is on building a complete workflow, rather than squeezing out maximum 
 
 model.ipynb – the main notebook with all steps (data prep, visualisation, training, evaluation).
 
-X000.txt – sample raw data file (ECG and arterial signals). This isn’t included here but you’ll need it or a similar dataset to run the notebook.
+X000.txt – sample raw data file (ECG and arterial signals).
 
 ## How to run it
 
 1. Clone this repo:
 
-'''
+```
 git clone https://github.com/yourusername/blood-pressure-ml.git
 cd blood-pressure-ml
-'''
+```
 
 2. Install the required Python libraries:
 
-'''
+```
 pip install numpy pandas matplotlib scipy scikit-learn
-'''
+```
 
 3. Open the notebook in Jupyter:
 
-'''
+```
 jupyter notebook model.ipynb
-'''
+```
 
 ## Results so far
 
