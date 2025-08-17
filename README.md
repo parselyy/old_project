@@ -22,7 +22,7 @@ The focus is on building a complete workflow, rather than squeezing out maximum 
 
 model.ipynb – the main notebook with all steps (data prep, visualisation, training, evaluation).
 
-X000.txt – sample raw data file (ECG and arterial signals).
+X000.txt – sample raw data file (ECG and arterial signals). This isn’t included here due to size constraints but you’ll need a similar dataset to run the notebook.
 
 ## How to run it
 
